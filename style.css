@@ -25,8 +25,8 @@ font-family: 'Anonymous Pro', monospace;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
     padding: 0px 0;
-    top: 0%;
-    left: 23%;
+    top: 2%;
+    left: 24%;
 }
 
 nav ul {
@@ -95,19 +95,32 @@ nav ul li a:hover {
     font-family: 'Anonymous Pro', monospace;
     color: rgb(255, 255, 255);
     font-size: 34px;
-    left: 434px;
+    left: 336px;
     position: absolute;
-    top: 400px;
+    top: 358px;
   }
   
 
-  #scene1 h1 {
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 3em;
+  h1 {
+    font-family: 'Clicker Script', cursive;
+    font-size: 4em;
     position: absolute;
-    top: 188px;
+    top: 158px;
     left: 150px;
     color: #fff;
+    font-stretch: expanded;
+  }
+
+  h4 {
+    z-index: 9999;
+    font-family: 'Clicker Script', cursive;
+    font-size: 2em;
+    position: fixed;
+    top: -10px;
+    left: 100px;
+    color: #fff;
+    font-stretch: expanded;
+
   }
   
   section:nth-child(2) p {
@@ -117,7 +130,7 @@ nav ul li a:hover {
           font-family: 'Anonymous Pro', monospace;
           color: rgb(255, 255, 255);
           font-size: 25px;
-          left: 699px;
+          left: 670px;
           position: absolute;
           top: 400px;
         }
@@ -131,7 +144,7 @@ nav ul li a:hover {
     font-size: 25px;
     left: 900px;
     position: absolute;
-    top: 130px;
+    top: 160px;
   }
   #scene3 p {
     font-family: 'Anonymous Pro', monospace;
@@ -149,34 +162,34 @@ nav ul li a:hover {
   
   section:nth-child(5) p {
     left: 10%;
-    top: 10% ;
+    top: 15% ;
     color: #fff;
   }
   section:nth-child(6) p {
     left: 10%;
-    top: 10% ;
+    top: 15% ;
     color: #fff;
   }
   section:nth-child(7) p {
     left: 10%;
-    top: 10% ;
+    top: 15% ;
     color: #fff;
   }
   section:nth-child(8) p {
     left: 10%;
-    top: 10% ;
+    top: 15% ;
     color: #fff;
     font-size: 40px;
   }
   section:nth-child(9) p {
     left: 10%;
-    top: 10% ;
+    top: 15% ;
     color: #fff;
     font-size: 40px;
   }
   section:nth-child(10) p {
     left: 10%;
-    top: 10% ;
+    top: 15% ;
     color: #fff;
     font-size: 40px;
   }
@@ -224,12 +237,12 @@ nav ul li a:hover {
   
   section:nth-of-type(6) {
     background-image: url('images/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png');
-    background-color: #2d2f2e;
+    background-color: #e03f4c;
 }
 
 section:nth-of-type(7) {
     background-image: url('images/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png');
-    background-color: #2d0f13;
+    background-color: #44cda4;
     /* background-blend-mode: soft-light; */
 }
     .code {
@@ -259,7 +272,7 @@ section:nth-of-type(8) {
 .vl {
   position: absolute;
   left: 600px;
-  top: 80px;
+  top: 105px;
   border-left: 20px dotted #ffffff5f;
   height: 700px;
 }
