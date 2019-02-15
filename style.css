@@ -26,7 +26,7 @@ font-family: 'Anonymous Pro', monospace;
     margin: 0 auto;
     padding: 0px 0;
     top: 2%;
-    left: 24%;
+    left: 22%;
 }
 
 nav ul {
@@ -116,11 +116,22 @@ nav ul li a:hover {
     font-family: 'Clicker Script', cursive;
     font-size: 2em;
     position: fixed;
-    top: -10px;
+    top: -4px;
     left: 100px;
     color: #fff;
     font-stretch: expanded;
 
+  }
+
+  h6 {
+    z-index: 9999;
+    font-family: 'Clicker Script', cursive;
+    font-size: 1.5em;
+    position: fixed;
+    top: -10px;
+    left: 1160px;
+    color: #fff;
+    font-stretch: expanded;
   }
   
   section:nth-child(2) p {
@@ -228,13 +239,13 @@ nav ul li a:hover {
     background-image: url('images/parallax.gif');
     background-color: #177554;
 }
-  
-  section:nth-of-type(5) {
-    background-image: url('images/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png');
-    background-color: #2d0f13;
+
+section:nth-of-type(5) {
+  background-image: url('images/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png');
+  background-color: #2d0f13;
 
 }
-  
+
   section:nth-of-type(6) {
     background-image: url('images/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png');
     background-color: #e03f4c;
@@ -281,7 +292,7 @@ section:nth-of-type(9) {
   background-color: #2d0f13;
 }
 section:nth-of-type(10) {
-  background-image: url('images/triumph-scrambler-1200-xe-rear-1-4.png');
+  background-image: url('images/soco-ts.png');
   background-color: #2d0f13;
 }
 
