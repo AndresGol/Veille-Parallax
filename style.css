@@ -157,7 +157,7 @@ nav ul li a:hover {
   
   p {
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 30px;
     left: 100px;
     position: absolute;
     top: 50px;
@@ -166,10 +166,11 @@ nav ul li a:hover {
   span {
     font-family: 'Anonymous Pro', monospace;
     color: rgb(255, 255, 255);
-    font-size: 34px;
+    font-size: 32px;
     left: 336px;
     position: absolute;
     top: 358px;
+    line-height: 1.5em;
   }
   
   h1 {
@@ -242,6 +243,7 @@ nav ul li a:hover {
           left: 670px;
           position: absolute;
           top: 400px;
+          line-height: 1.5em;
         }
 
   section:nth-child(3) p {
@@ -288,19 +290,19 @@ nav ul li a:hover {
     left: 10%;
     top: 15% ;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
   }
   section:nth-child(9) p {
     left: 10%;
     top: 15% ;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
   }
   section:nth-child(10) p {
     left: 10%;
     top: 15% ;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
   }
   section:nth-child(11) p {
     left: 40%;
