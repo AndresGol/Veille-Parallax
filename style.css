@@ -146,7 +146,7 @@ nav ul li a:hover {
     background-size: cover;
     height: 100vh;
     position: relative;
-    width: 100vw;
+    width: 100%;
   }
   
   img {
@@ -154,15 +154,6 @@ nav ul li a:hover {
     object-fit: cover;
     width: 100vw;
   }
-  /* .images {
-    background-image: url(images/gt.jpg);  
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    position: relative;
-    width: 50vw; 
-  } */
   
   p {
     color: rgb(255, 255, 255);
@@ -181,7 +172,6 @@ nav ul li a:hover {
     top: 358px;
   }
   
-
   h1 {
     z-index: 9999;
     font-family: 'Clicker Script', cursive;
@@ -189,7 +179,7 @@ nav ul li a:hover {
     position: absolute;
     top: 158px;
     left: 150px;
-    color: #351e09;
+    color: #d96148;
     font-stretch: expanded;
   }
 
@@ -203,6 +193,18 @@ nav ul li a:hover {
     color: #fff;
     font-stretch: expanded;
 
+  }
+
+  h4:hover {
+    transform: scale(1.5);
+    z-index: 9999;
+    font-family: 'Clicker Script', cursive;
+    font-size: 2em;
+    position: fixed;
+    top: -4px;
+    left: 100px;
+    color: #fff;
+    font-stretch: expanded;
   }
 
   h5 {
@@ -338,7 +340,7 @@ nav ul li a:hover {
 
 section:nth-of-type(5) {
   background-image: url('images/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png');
-  background-color: #2d0f13;
+  background-color: #29162b;
 
 }
 
@@ -371,6 +373,7 @@ section:nth-of-type(7) {
       background-image: url(images/codehtml.jpeg);
       background-repeat: no-repeat;
     }
+
 
 section:nth-of-type(8) {
     background-image: url('images/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png');
