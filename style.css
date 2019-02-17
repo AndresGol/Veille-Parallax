@@ -277,14 +277,14 @@ nav ul li a:hover {
     font-size: 1em;
   }
 
-  #scene4 a {
+  /* #scene4 a {
 
   }
   #scene4 a:hover {
     transform: scale(1.5);
     color: darkslateblue;
     
-  }
+  } */
 
   section:nth-child(5) p {
     left: 10%;
@@ -370,7 +370,7 @@ nav ul li a:hover {
   
   section:nth-of-type(4) {
    
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
     color: #fff;
     background: linear-gradient(45deg,  #1e528e 0%, #728a7c 50%, #e9ce5d 100%);
