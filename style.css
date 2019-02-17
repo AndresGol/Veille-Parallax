@@ -164,7 +164,9 @@ nav ul li a:hover {
     top: 50px;
   }
 
-  span {
+  #scene1 span {
+    padding: 1em;
+    background-color: #7244bb55;
     font-family: 'Anonymous Pro', monospace;
     color: rgb(255, 255, 255);
     font-size: 32px;
@@ -336,14 +338,15 @@ nav ul li a:hover {
 
   
   section:nth-of-type(1){
-    /* background-image: url(images/street.gif); */
-    background-color: #44cda4;
+    background-image: url(images/street.gif); 
+    background-repeat: repeat;
   }
 
 
 
   section:nth-of-type(2) {
-    
+    background-image: url(images/street.gif); 
+    background-blend-mode: soft-light;
     background-color: #351e09;
     background-size: 100%;
     
@@ -366,7 +369,55 @@ nav ul li a:hover {
 }
   
   section:nth-of-type(4) {
-    background: linear-gradient(to bottom, #163C52 0%, #4F4F47 30%, #C5752D 60%, #B7490F 80%, #2F1107 100%); 
+   
+    width: 100wh;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg,  #1e528e 0%, #728a7c 50%, #e9ce5d 100%);
+    
+
+    background-size: 600% 600%;
+    -webkit-animation: Gradient 25s ease-in-out infinite;
+    -moz-animation: Gradient 25s ease-in-out infinite;
+    animation: Gradient 25s ease-in-out infinite;
+  }
+
+ 
+
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
   }
 
 section:nth-of-type(5) {
@@ -516,8 +567,8 @@ section:nth-of-type(11) {
               }
 
 section:nth-of-type(12) {
-  background-image: url('images/DenseFatAmericanbittern-max-1mb.gif');
-  background-color: #77b173;
+  background-image: url('images/whispered-world.gif');
+  background-color: #73b18f;
   background-size: 30%;
   background-position: 80% 75%;
 }
