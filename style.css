@@ -397,20 +397,18 @@ nav ul li a:hover {
 }
   
   section:nth-of-type(4) {
-   
+  
     width: 100vw;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(45deg, #1e528e 0%, #071a2c 50%, #e9ce5d 100%);
+    background: linear-gradient(45deg, #000000 0%, #351255 50%, #ecfd01 100%);
     
 
     background-size: 600% 600%;
-    -webkit-animation: Gradient 25s ease-in-out infinite;
-    -moz-animation: Gradient 25s ease-in-out infinite;
-    animation: Gradient 25s ease-in-out infinite;
+    -webkit-animation: Gradient 25s cubic-bezier(0.53, 1.05, 1, 1) infinite;
+    -moz-animation: Gradient 25s cubic-bezier(0.53, 1.05, 1, 1) infinite;
+    animation: Gradient 25s cubic-bezier(0.53, 1.05, 1, 1) infinite;
   }
-
- 
 
   @-webkit-keyframes Gradient {
     0% {
