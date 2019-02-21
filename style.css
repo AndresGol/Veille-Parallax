@@ -1,12 +1,3 @@
-/* font-family: 'Clicker Script', cursive;
-font-family: 'Bubblegum Sans', cursive;
-font-family: 'Lora', serif; 
-font-family: 'Karla', sans-serif;
-font-family: 'Anonymous Pro', monospace;
-*/
-
-
-
 /* Set the background color of body to tan */
 body {
   background-color: tan;
@@ -29,12 +20,7 @@ body {
   }
 }
 
-
-
-
-
 .parallax {
- 
   -webkit-perspective: 100px;
   perspective: 100px;
   height: 100vh;
@@ -111,27 +97,25 @@ body {
           transform: translateZ(0px) scale(1);
 }
 
-
-
 * {
-    font-family: 'Karla', sans-serif;
     box-sizing: border-box;
-
   }
+
   html {
     scroll-behavior: smooth;
   }
 
   body {
     width: 100vw;
-     padding: 0px;
+    padding: 0px;
     margin: 0;
   }
 
   nav {z-index: 9999!important;
     position: fixed;
     max-width: 960px;
-    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%,
+    #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
     padding: 0px 0;
     top: 2%;
@@ -152,8 +136,6 @@ nav ul li {
 nav ul li a {
     float: left;
     padding: 1em;
-    /* font-family: 'Bubblegum Sans', cursive; */
-    /* font-family: 'Lora', serif;  */
     font-family: 'Anonymous Pro', monospace;
     text-transform: uppercase;
     color: white;
@@ -193,16 +175,17 @@ nav ul li a:hover {
   }
 
   #scene1 span {
-    padding: 1em;
+    padding: 0.5em;
+    padding-top: 0em;
     background-color: #7244bb55;
     font-family: 'Anonymous Pro', monospace;
     color: rgb(255, 255, 255);
     font-size: 32px;
-    left: 30%;
+    left: 23%;
     position: absolute;
-    top: 40%;
+    top: 70%;
     line-height: 1.5em;
-  }
+}
   
   h1 {
     z-index: 9999;
@@ -248,8 +231,6 @@ nav ul li a:hover {
     left: 24%;
     color: #fcb574;
     line-height: 30px;
-    
-    /* font-stretch: expanded; */
 
   }
 
@@ -305,15 +286,6 @@ nav ul li a:hover {
     font-size: 1em;
   }
 
-  /* #scene4 a {
-
-  }
-  #scene4 a:hover {
-    transform: scale(1.5);
-    color: darkslateblue;
-    
-  } */
-
   section:nth-child(5) p {
     left: 10%;
     top: 15% ;
@@ -364,22 +336,18 @@ nav ul li a:hover {
     color: #fff;
   }
 
-  
   section:nth-of-type(1){
-    background-image: url(images/street.gif); 
-    background-repeat: repeat;
+    background-image: url(images/para-game.gif);
+    background-size: 100%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
   }
-
-
 
   section:nth-of-type(2) {
     background-image: url(images/street.gif); 
     background-blend-mode: soft-light;
     background-color: #351e09;
     background-size: 100%;
-    
-    
-    
 }
 
   #scene2 img {
@@ -388,7 +356,6 @@ nav ul li a:hover {
     left: 14%;
     top: 38%;
     height: 258px;
-    
   }
   
   section:nth-of-type(3) {
@@ -397,13 +364,10 @@ nav ul li a:hover {
 }
   
   section:nth-of-type(4) {
-  
     width: 100vw;
     height: 100vh;
     color: #fff;
     background: linear-gradient(45deg, #000000 0%, #351255 50%, #ecfd01 100%);
-    
-
     background-size: 600% 600%;
     -webkit-animation: Gradient 25s cubic-bezier(0.53, 1.05, 1, 1) infinite;
     -moz-animation: Gradient 25s cubic-bezier(0.53, 1.05, 1, 1) infinite;
@@ -593,12 +557,13 @@ section:nth-of-type(11) {
               }
 
 section:nth-of-type(12) {
-  background-image: url('images/whispered-world.gif');
+  background-image: url(images/whispered-world.gif);
   background-color: #73b18f;
   background-size: 30%;
-  background-position: 80% 75%;
+  background-position: 84% 55%;
 }
 #scene12 ul {
+    width: 60%;
     list-style-type:square;
     position: absolute;
     left: 200px;
@@ -624,6 +589,7 @@ section:nth-of-type(13) {
    
 }
 #scene13 ul {
+  width: 80%;
   list-style-type:square;
   position: absolute;
   left: 200px;
