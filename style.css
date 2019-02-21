@@ -1,6 +1,6 @@
 /* Set the background color of body to tan */
 body {
-  background-color: tan;
+  background-color: rgb(25, 71, 25);
 }
 
 /* On screens that are 992px or less, set the background color to blue */
@@ -16,7 +16,7 @@ body {
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    margin: 0px;
   }
 }
 
@@ -66,32 +66,26 @@ body {
   -webkit-transform: translateZ(-300px) scale(4);
           transform: translateZ(-300px) scale(4);
 }
-
 .parallax__layer__1 {
   -webkit-transform: translateZ(-250px) scale(3.5);
           transform: translateZ(-250px) scale(3.5);
 }
-
 .parallax__layer__2 {
   -webkit-transform: translateZ(-200px) scale(3);
           transform: translateZ(-200px) scale(3);
 }
-
 .parallax__layer__3 {
   -webkit-transform: translateZ(-150px) scale(2.5);
           transform: translateZ(-150px) scale(2.5);
 }
-
 .parallax__layer__4 {
   -webkit-transform: translateZ(-100px) scale(2);
           transform: translateZ(-100px) scale(2);
 }
-
 .parallax__layer__5 {
   -webkit-transform: translateZ(-50px) scale(1.5);
           transform: translateZ(-50px) scale(1.5);
 }
-
 .parallax__layer__6 {
   -webkit-transform: translateZ(0px) scale(1);
           transform: translateZ(0px) scale(1);
@@ -111,7 +105,8 @@ body {
     margin: 0;
   }
 
-  nav {z-index: 9999!important;
+  nav {
+    z-index: 9999!important;
     position: fixed;
     max-width: 960px;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%,
@@ -124,6 +119,7 @@ body {
   }
 
 nav ul {
+  width: 
   text-align: center;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
@@ -273,9 +269,9 @@ nav ul li a:hover {
     font-family: 'Anonymous Pro', monospace;
     color: rgb(255, 255, 255);
     font-size: 25px;
-    left: 80px;
+    left: 880px;
     position: absolute;
-    top: 680px;
+    top: 180px;
   }
   
   section:nth-child(4) p {
@@ -287,6 +283,7 @@ nav ul li a:hover {
   }
 
   section:nth-child(5) p {
+    font-size: 1.5em;
     left: 10%;
     top: 15% ;
     color: #fff;
@@ -359,9 +356,19 @@ nav ul li a:hover {
   }
   
   section:nth-of-type(3) {
-    background-image: url('images/couches.jpeg');
-    background-color: mediumslateblue;
+    background-image: url('images/layers.png');
+    background-size: 100%;
+    background-position: 0% 0%;
+    background-color: #1c4959;
 }
+
+  #scene3 img {
+      width: 28%;
+      position: absolute;
+      left: 14%;
+      top: 28%;
+      height: 550px;
+    }
   
   section:nth-of-type(4) {
     width: 100vw;
@@ -409,6 +416,7 @@ nav ul li a:hover {
       background-position: 0% 50%
     }
   }
+
 
 section:nth-of-type(5) {
   background-image: url('images/harley-davidson-png-harley-davidson-1200-motorcycle-bike-png-transparent-image-1824.png');
@@ -586,8 +594,8 @@ section:nth-of-type(13) {
     background-color: #da6845;
     background-size: 30%;
     background-position: 80% 60%;
-   
 }
+
 #scene13 ul {
   width: 80%;
   list-style-type:square;
@@ -619,7 +627,6 @@ section:nth-of-type(14) {
       background-attachment: scroll;
     }
   
-   
     * p {
       font-size: 1em;
       left: 30%;
