@@ -342,8 +342,11 @@ nav ul li a:hover {
     font-size: 30px;
   }
   section:nth-child(11) p {
-    left: 40%;
-    color: #fff;
+    left: 9%;
+    top: 40% ;
+    color: rgb(12, 12, 12);
+    font-size: 30px;
+    text-align: justify;
   }
   section:nth-child(12) p {
     left: 40%;
@@ -501,99 +504,28 @@ section:nth-of-type(10) {
 }
 
 section:nth-of-type(11) {
-  background-image: url('images/street.gif');
-  background-color: #4cce8d;
+  background-image: url('images/The_Whispered_World_parallax_scrolling.jpg');
+  background-color: #9a8c66;
+  background-size: 40%;
+  background-blend-mode: normal;
+  background-position: 90% 40%;
+
 }
-  .layers1 {
-      position: absolute;
-      width: 20%;
-      background-color: #ab40359F;
-      height: 100px;
-      top: 700px;
-      left: 30%;
-      
-
-  }
-      .layers1 p {
-          font-family: 'Anonymous Pro', monospace;
-          color: rgb(255, 255, 255);
-          font-size: 34px;
-          left: 90px;
-          position: absolute;
-          top: 0px;
-      }
-
-      .layers1 span {
-          font-family: 'Anonymous Pro', monospace;
-          color: rgb(255, 255, 255);
-          font-size: 22px;
-          left: 70px;
-          position: absolute;
-          top: 0px;
-          padding: 5px;
-      }
-
-      .layers2 {
-          position: absolute;
-          width: 20%;
-          background-color: #ab40359F;
-          height: 100px;
-          top: 550px;
-          left: 50%;
-  
-      }
-          .layers2 p {
-              font-family: 'Anonymous Pro', monospace;
-              color: rgb(255, 255, 255);
-              font-size: 34px;
-              left: 90px;
-              position: absolute;
-              top: 0px;
-          }
-  
-          .layers2 span {
-              font-family: 'Anonymous Pro', monospace;
-              color: rgb(255, 255, 255);
-              font-size: 22px;
-              left: 70px;
-              position: absolute;
-              top: 0px;
-              padding: 5px;
-          }
-
-          .layers3 {
-              position: absolute;
-              width: 20%;
-              background-color: #ab40359F;
-              height: 100px;
-              top: 250px;
-              left: 74%;
-      
-          }
-              .layers3 p {
-                  font-family: 'Anonymous Pro', monospace;
-                  color: rgb(255, 255, 255);
-                  font-size: 34px;
-                  left: 90px;
-                  position: absolute;
-                  top: 0px;
-              }
-      
-              .layers3 span {
-                  font-family: 'Anonymous Pro', monospace;
-                  color: rgb(255, 255, 255);
-                  font-size: 22px;
-                  left: 70px;
-                  position: absolute;
-                  top: 0px;
-                  padding: 5px;
-              }
 
 section:nth-of-type(12) {
-  background-image: url(images/whispered-world.gif);
+  /* background-image: url(images/whispered-world.gif);
   background-color: #73b18f;
   background-size: 30%;
-  background-position: 84% 55%;
+  background-position: 84% 55%; */
+}
+
+#space {
+  background-color: #000;
+  height: 140px;
+}
+#space2 {
+  background-color: #000;
+  height: 80px;
 }
 #scene12 ul {
     width: 60%;
@@ -615,10 +547,11 @@ section:nth-of-type(12) {
   color: #2d0f13;
 }
 section:nth-of-type(13) {
-    background-image: url('');
-    background-color: #da6845;
-    background-size: 30%;
-    background-position: 80% 60%;
+    background-image: url(images/whispered-world.gif);
+    background-color: #4e5b90;
+    background-size: 129%;
+    background-position: 0% 0%;
+    background-blend-mode: exclusion;
 }
 
 #scene13 ul {
